@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de eBooks - Seu Crescimento Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            /* Adicionando a imagem como plano de fundo */
+            background-image: url('https://i.ibb.co/5L2GqPz/ebook-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        nav {
+            background-color: rgba(44, 62, 80, 0.9); /* Fundo semi-transparente para legibilidade */
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(236, 240, 241, 0.9); /* Fundo semi-transparente */
+            color: #333;
+        }
+        .ebook-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .ebook-card {
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+        }
+        .ebook-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .sales-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-top: 2px solid #2c3e50;
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+        }
+        .button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .button:hover {
+            background-color: #c0392b;
+        }
+        .price {
+            font-size: 24px;
+            color: #27ae60;
+            margin: 20px 0;
+        }
+        .bonus {
+            background-color: rgba(241, 196, 15, 0.9); /* Fundo semi-transparente */
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        .payment-section {
+            background-color: rgba(249, 249, 249, 0.9); /* Fundo semi-transparente */
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(44, 62, 80, 0.9); /* Fundo semi-transparente */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegação -->
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#ebooks">eBooks</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header id="inicio">
+        <h1>Bem-vindo à Biblioteca de eBooks</h1>
+        <p>Seu caminho para o crescimento pessoal e profissional começa aqui!</p>
+    </header>
+
+    <!-- Lista de eBooks -->
+    <section id="ebooks" class="ebook-grid">
+        <div class="ebook-card">
+            <img src="https://via.placeholder.com/150" alt="Capa Guia Definitivo de Saúde e Bem-Estar">
+            <h3>Guia Definitivo de Saúde e Bem-Estar</h3>
+            <p>Viva com mais energia e equilíbrio todos os dias.</p>
+            <p><strong>R$15</strong></p>
+            <a href="#saude-bem-estar" class="button">Saiba Mais</a>
+        </div>
+        <div class="ebook-card">
+            <img src="https://via.placeholder.com/150" alt="Capa Educação e Carreira">
+            <h3>Educação e Carreira: Um Guia Completo para o Sucesso</h3>
+            <p>Alcance seus objetivos profissionais com confiança.</p>
+            <p><strong>R$15</strong></p>
+            <a href="#educacao-carreira" class="button">Saiba Mais</a>
+        </div>
+        <div class="ebook-card">
+            <img src="https://via.placeholder.com/150" alt="Capa Introdução ao Desenvolvimento Pessoal">
+            <h3>Introdução ao Desenvolvimento Pessoal</h3>
+            <p>Dê o primeiro passo para transformar sua vida.</p>
+            <p><strong>R$15</strong></p>
+            <a href="#desenvolvimento-pessoal" class="button">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Página de Vendas - Guia Definitivo de Saúde e Bem-Estar -->
+    <section id="saude-bem-estar" class="sales-section">
+        <h2>Guia Definitivo de Saúde e Bem-Estar</h2>
+        <h3>Viva com Mais Energia e Equilíbrio em 30 Dias!</h3>
+        <p>Imagine acordar todos os dias com disposição e bem-estar. Com o <strong>Guia Definitivo de Saúde e Bem-Estar</strong>, você terá um plano prático para melhorar sua saúde física e mental.</p>
+        <h4>O Que Você Vai Ganhar</h4>
+        <ul>
+            <li>✔ Hábitos simples para mais energia</li>
+            <li>✔ Dicas de alimentação equilibrada</li>
+            <li>✔ Técnicas de relaxamento comprovadas</li>
+        </ul>
+        <h4>Conteúdo do eBook</h4>
+        <p><strong>Capítulo 1:</strong> Fundamentos da Saúde Integral</p>
+        <p><strong>Capítulo 2:</strong> Rotinas Matinais Poderosas</p>
+        <p><strong>Capítulo 3:</strong> Bem-Estar Mental e Emocional</p>
+        <div class="bonus">
+            <h5>Bônus Exclusivo</h5>
+            <p>Plano de 7 Dias para Desintoxicação Natural</p>
+        </div>
+        <h4>Depoimentos</h4>
+        <p><em>"Minha energia mudou completamente em uma semana!"</em> – Carla M.</p>
+        <p class="price">Por Apenas R$15</p>
+        <p><strong>Garantia de 7 Dias:</strong> Devolvo seu dinheiro se não gostar.</p>
+        <a href="#pagamento-saude-bem-estar" class="button">Comprar Agora</a>
+        <!-- Página de Pagamento -->
+        <div id="pagamento-saude-bem-estar" class="payment-section">
+            <h3>Pagamento via Pix</h3>
+            <p>Valor: <strong>R$15</strong></p>
+            <p>Chave Pix (Telefone): <strong>14252359643</strong></p>
+            <p>1. Faça o pagamento via Pix usando a chave acima.</p>
+            <p>2. Envie o comprovante para @p3drin36_vendas (via Instagram ou e-mail, conforme indicado no contato).</p>
+            <p>3. Você receberá o eBook por e-mail em até 24 horas!</p>
+        </div>
+    </section>
+
+    <!-- Página de Vendas - Educação e Carreira -->
+    <section id="educacao-carreira" class="sales-section">
+        <h2>Educação e Carreira: Um Guia Completo para o Sucesso</h2>
+        <h3>Alcance Seus Objetivos Profissionais em 60 Dias!</h3>
+        <p>Imagine conquistar a carreira dos seus sonhos. Com o <strong>Educação e Carreira</strong>, você terá um guia passo a passo para crescer profissionalmente.</p>
+        <h4>O Que Você Vai Ganhar</h4>
+        <ul>
+            <li>✔ Estratégias para se destacar no mercado</li>
+            <li>✔ Como planejar sua educação contínua</li>
+            <li>✔ Dicas para entrevistas e networking</li>
+        </ul>
+        <h4>Conteúdo do eBook</h4>
+        <p><strong>Capítulo 1:</strong> Definindo Metas Profissionais</p>
+        <p><strong>Capítulo 2:</strong> Habilidades do Futuro</p>
+        <p><strong>Capítulo 3:</strong> Construindo uma Carreira Sólida</p>
+        <div class="bonus">
+            <h5>Bônus Exclusivo</h5>
+            <p>Modelo de Currículo Vencedor</p>
+        </div>
+        <h4>Depoimentos</h4>
+        <p><em>"Consegui uma promoção após aplicar as dicas!"</em> – Pedro R.</p>
+        <p class="price">Por Apenas R$15</p>
+        <p><strong>Garantia de 7 Dias:</strong> Devolvo seu dinheiro se não gostar.</p>
+        <a href="#pagamento-educacao-carreira" class="button">Comprar Agora</a>
+        <!-- Página de Pagamento -->
+        <div id="pagamento-educacao-carreira" class="payment-section">
+            <h3>Pagamento via Pix</h3>
+            <p>Valor: <strong>R$15</strong></p>
+            <p>Chave Pix (Telefone): <strong>14252359643</strong></p>
+            <p>1. Faça o pagamento via Pix usando a chave acima.</p>
+            <p>2. Envie o comprovante para @p3drin36_vendas (via Instagram ou e-mail, conforme indicado no contato).</p>
+            <p>3. Você receberá o eBook por e-mail em até 24 horas!</p>
+        </div>
+    </section>
+
+    <!-- Página de Vendas - Introdução ao Desenvolvimento Pessoal -->
+    <section id="desenvolvimento-pessoal" class="sales-section">
+        <h2>Introdução ao Desenvolvimento Pessoal</h2>
+        <h3>Dê o Primeiro Passo para Transformar Sua Vida em 15 Dias!</h3>
+        <p>Imagine se sentir mais confiante e no controle da sua vida. Com o <strong>Introdução ao Desenvolvimento Pessoal</strong>, você começará sua jornada de autodescoberta.</p>
+        <h4>O Que Você Vai Ganhar</h4>
+        <ul>
+            <li>✔ Como definir metas claras</li>
+            <li>✔ Técnicas para aumentar a autoconfiança</li>
+            <li>✔ Hábitos para crescimento diário</li>
+        </ul>
+        <h4>Conteúdo do eBook</h4>
+        <p><strong>Capítulo 1:</strong> Entendendo o Desenvolvimento Pessoal</p>
+        <p><strong>Capítulo 2:</strong> Primeiros Passos para Mudança</p>
+        <p><strong>Capítulo 3:</strong> Criando uma Rotina Positiva</p>
+        <div class="bonus">
+            <h5>Bônus Exclusivo</h5>
+            <p>Diário de Reflexão Pessoal (30 Dias)</p>
+        </div>
+        <h4>Depoimentos</h4>
+        <p><em>"Um guia simples que mudou minha perspectiva!"</em> – Luiza T.</p>
+        <p class="price">Por Apenas R$15</p>
+        <p><strong>Garantia de 7 Dias:</strong> Devolvo seu dinheiro se não gostar.</p>
+        <a href="#pagamento-desenvolvimento-pessoal" class="button">Comprar Agora</a>
+        <!-- Página de Pagamento -->
+        <div id="pagamento-desenvolvimento-pessoal" class="payment-section">
+            <h3>Pagamento via Pix</h3>
+            <p>Valor: <strong>R$15</strong></p>
+            <p>Chave Pix (Telefone): <strong>14252359643</strong></p>
+            <p>1. Faça o pagamento via Pix usando a chave acima.</p>
+            <p>2. Envie o comprovante para @p3drin36_vendas (via Instagram ou e-mail, conforme indicado no contato).</p>
+            <p>3. Você receberá o eBook por e-mail em até 24 horas!</p>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sales-section">
+        <h2>Sobre Mim</h2>
+        <p>Sou Pedro Lucas, dedicado a ajudar pessoas a alcançarem seu potencial máximo. Esses eBooks são o resultado da minha paixão por compartilhar conhecimento prático.</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="sales-section">
+        <h2>Contato</h2>
+        <p>Entre em contato: Envie uma mensagem para <a href="https://instagram.com/p3drin36_vendas" target="_blank">@p3drin36_vendas</a> no Instagram ou para o e-mail [seuemail@exemplo.com].</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Pedro Lucas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
